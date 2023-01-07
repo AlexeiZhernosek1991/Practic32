@@ -1,0 +1,875 @@
+executor.py [LINE:362] #INFO     [2022-11-30 18:52:57,720] Bot: Alex12345 [@AlexZer_bot]
+executor.py [LINE:358] #WARNING  [2022-11-30 18:52:57,891] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2022-11-30 18:52:57,891] Start polling.
+base_events.py [LINE:1744] #ERROR    [2022-11-30 18:53:23,484] Task exception was never retrieved
+future: <Task finished name='Task-15' coro=<Dispatcher._process_polling_updates() done, defined at C:\Users\Alex\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=RuntimeError('asyncio.run() cannot be called from a running event loop')>
+Traceback (most recent call last):
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python310\lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+  File "D:\Пайтон\pyproject\practic\Alex12345\main.py", line 88, in answer_for_state_P1
+    pars1.main(answer1)
+  File "D:\Пайтон\pyproject\practic\Alex12345\pars1.py", line 54, in main
+    asyncio.run(gather_tasks(pages))  # Пуск списка задач
+  File "C:\Users\Alex\AppData\Local\Programs\Python\Python310\lib\asyncio\runners.py", line 33, in run
+    raise RuntimeError(
+RuntimeError: asyncio.run() cannot be called from a running event loop
+dispatcher.py [LINE:433] #INFO     [2022-11-30 18:53:26,831] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-11-30 18:53:26,832] Goodbye!
+executor.py [LINE:362] #INFO     [2022-12-28 20:01:01,544] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2022-12-28 20:01:01,830] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2022-12-28 20:01:01,830] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-12-28 20:05:30,075] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-12-28 20:05:30,076] Goodbye!
+executor.py [LINE:362] #INFO     [2022-12-28 20:05:35,452] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2022-12-28 20:05:35,614] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2022-12-28 20:05:35,614] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-12-28 20:06:52,882] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-12-28 20:06:52,883] Goodbye!
+executor.py [LINE:362] #INFO     [2022-12-28 20:06:57,030] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2022-12-28 20:06:57,233] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2022-12-28 20:06:57,234] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-12-28 20:11:54,232] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-12-28 20:11:54,233] Goodbye!
+executor.py [LINE:362] #INFO     [2022-12-28 20:11:58,307] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2022-12-28 20:11:58,466] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2022-12-28 20:11:58,467] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-12-28 20:13:03,313] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-12-28 20:13:03,314] Goodbye!
+executor.py [LINE:362] #INFO     [2022-12-28 20:13:07,566] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2022-12-28 20:13:07,762] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2022-12-28 20:13:07,763] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-12-28 20:14:02,918] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-12-28 20:14:02,919] Goodbye!
+executor.py [LINE:362] #INFO     [2022-12-28 20:14:07,297] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2022-12-28 20:14:07,446] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2022-12-28 20:14:07,446] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-12-28 20:19:42,409] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-12-28 20:19:42,410] Goodbye!
+executor.py [LINE:362] #INFO     [2022-12-28 20:19:47,024] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2022-12-28 20:19:47,214] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2022-12-28 20:19:47,214] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-12-28 20:20:34,003] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-12-28 20:20:34,004] Goodbye!
+executor.py [LINE:362] #INFO     [2022-12-28 20:20:38,102] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2022-12-28 20:20:38,275] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2022-12-28 20:20:38,276] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-12-28 20:24:15,578] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-12-28 20:24:15,579] Goodbye!
+executor.py [LINE:362] #INFO     [2022-12-28 20:24:19,381] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2022-12-28 20:24:19,540] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2022-12-28 20:24:19,541] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-12-28 20:24:41,007] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-12-28 20:24:41,008] Goodbye!
+executor.py [LINE:362] #INFO     [2022-12-28 20:24:45,701] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2022-12-28 20:24:45,840] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2022-12-28 20:24:45,840] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-12-28 20:52:35,764] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-12-28 20:52:35,765] Goodbye!
+executor.py [LINE:362] #INFO     [2022-12-28 20:52:39,724] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2022-12-28 20:52:39,898] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2022-12-28 20:52:39,898] Start polling.
+base_events.py [LINE:1765] #ERROR    [2022-12-28 20:55:07,823] Task exception was never retrieved
+future: <Task finished name='Task-34' coro=<Dispatcher._process_polling_updates() done, defined at D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\Bot\main.py", line 38, in answer_for_state_S1
+    answer = message.photo[-1]
+             ~~~~~~~~~~~~~^^^^
+IndexError: list index out of range
+base_events.py [LINE:1765] #ERROR    [2022-12-28 20:55:30,336] Task exception was never retrieved
+future: <Task finished name='Task-44' coro=<Dispatcher._process_polling_updates() done, defined at D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\Bot\main.py", line 38, in answer_for_state_S1
+    answer = message.photo[-1]
+             ~~~~~~~~~~~~~^^^^
+IndexError: list index out of range
+base_events.py [LINE:1765] #ERROR    [2022-12-28 20:55:32,853] Task exception was never retrieved
+future: <Task finished name='Task-47' coro=<Dispatcher._process_polling_updates() done, defined at D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\Bot\main.py", line 38, in answer_for_state_S1
+    answer = message.photo[-1]
+             ~~~~~~~~~~~~~^^^^
+IndexError: list index out of range
+base_events.py [LINE:1765] #ERROR    [2022-12-28 20:55:44,255] Task exception was never retrieved
+future: <Task finished name='Task-56' coro=<Dispatcher._process_polling_updates() done, defined at D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\Bot\main.py", line 38, in answer_for_state_S1
+    answer = message.photo[-1]
+             ~~~~~~~~~~~~~^^^^
+IndexError: list index out of range
+base_events.py [LINE:1765] #ERROR    [2022-12-28 20:55:47,597] Task exception was never retrieved
+future: <Task finished name='Task-59' coro=<Dispatcher._process_polling_updates() done, defined at D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=IndexError('list index out of range')>
+Traceback (most recent call last):
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\Bot\main.py", line 38, in answer_for_state_S1
+    answer = message.photo[-1]
+             ~~~~~~~~~~~~~^^^^
+IndexError: list index out of range
+dispatcher.py [LINE:433] #INFO     [2022-12-28 20:56:03,482] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-12-28 20:56:03,483] Goodbye!
+executor.py [LINE:362] #INFO     [2022-12-28 20:56:07,792] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2022-12-28 20:56:08,000] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2022-12-28 20:56:08,001] Start polling.
+dispatcher.py [LINE:433] #INFO     [2022-12-28 21:01:43,686] Stop polling...
+executor.py [LINE:329] #WARNING  [2022-12-28 21:01:43,687] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 20:31:55,480] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 20:31:55,650] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 20:31:55,651] Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-01-07 20:33:41,703] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 20:33:41,704] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 21:02:17,817] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 21:02:18,098] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 21:02:18,098] Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-01-07 21:03:19,776] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 21:03:19,777] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 21:03:25,296] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 21:03:25,458] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 21:03:25,459] Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-01-07 21:05:54,047] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 21:05:54,048] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 21:10:04,830] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 21:10:05,001] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 21:10:05,001] Start polling.
+base_events.py [LINE:1765] #ERROR    [2023-01-07 21:10:29,271] Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<Dispatcher._process_polling_updates() done, defined at D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\Bot\main.py", line 47, in answer_for_state_S2
+    await message.answer("Желаете ли сохранить фото", reply_markup=keyboard.photo1)
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\types\message.py", line 413, in answer
+    return await self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2023-01-07 21:10:59,986] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 21:10:59,987] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 21:11:37,195] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 21:11:37,371] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 21:11:37,371] Start polling.
+base_events.py [LINE:1765] #ERROR    [2023-01-07 21:11:54,539] Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<Dispatcher._process_polling_updates() done, defined at D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\Bot\main.py", line 47, in answer_for_state_S2
+    await message.answer("Желаете ли сохранить фото", reply_markup=keyboard.photo1)
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\types\message.py", line 413, in answer
+    return await self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2023-01-07 21:12:07,608] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 21:12:07,609] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 21:12:22,575] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 21:12:22,738] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 21:12:22,738] Start polling.
+base_events.py [LINE:1765] #ERROR    [2023-01-07 21:12:35,789] Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<Dispatcher._process_polling_updates() done, defined at D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\Bot\main.py", line 46, in answer_for_state_S2
+    await message.answer("Желаете ли сохранить фото", reply_markup=keyboard.photo1)
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\types\message.py", line 413, in answer
+    return await self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2023-01-07 21:12:50,097] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 21:12:50,098] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 21:14:06,607] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 21:14:06,838] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 21:14:06,839] Start polling.
+base_events.py [LINE:1765] #ERROR    [2023-01-07 21:14:17,878] Task exception was never retrieved
+future: <Task finished name='Task-26' coro=<Dispatcher._process_polling_updates() done, defined at D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\Bot\main.py", line 46, in answer_for_state_S2
+    await message.reply("Желаете ли сохранить фото", reply_markup=keyboard.photo1, parse_mode='Markdown')
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\types\message.py", line 1660, in reply
+    return await self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2023-01-07 21:14:27,100] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 21:14:27,101] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 21:15:10,245] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 21:15:10,407] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 21:15:10,407] Start polling.
+base_events.py [LINE:1765] #ERROR    [2023-01-07 21:15:29,027] Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<Dispatcher._process_polling_updates() done, defined at D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\Bot\main.py", line 47, in answer_for_state_S2
+    await message.answer("Желаете ли сохранить фото", reply_markup=keyboard.photo1, parse_mode='Markdown')
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\types\message.py", line 413, in answer
+    return await self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+base_events.py [LINE:1765] #ERROR    [2023-01-07 21:15:34,827] Task exception was never retrieved
+future: <Task finished name='Task-34' coro=<Dispatcher._process_polling_updates() done, defined at D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'str' object has no attribute 'download'")>
+Traceback (most recent call last):
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\Bot\main.py", line 59, in answer_for_state_S3
+    await answer1.download(destination=f'D:\Пайтон\pythonProject practic\Photo\{answer2}.jpg')
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'download'
+dispatcher.py [LINE:433] #INFO     [2023-01-07 21:17:53,945] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 21:17:53,946] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 21:17:57,294] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 21:17:57,505] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 21:17:57,505] Start polling.
+base_events.py [LINE:1765] #ERROR    [2023-01-07 21:18:17,424] Task exception was never retrieved
+future: <Task finished name='Task-32' coro=<Dispatcher._process_polling_updates() done, defined at D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\Bot\main.py", line 45, in answer_for_state_S2
+    await bot.send_message(message.chat.id, text="Желаете ли сохранить фото", reply_markup=keyboard.photo1, parse_mode='Markdown')
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2023-01-07 21:20:11,760] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 21:20:11,761] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 21:20:15,323] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 21:20:15,483] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 21:20:15,483] Start polling.
+base_events.py [LINE:1765] #ERROR    [2023-01-07 21:20:25,803] Task exception was never retrieved
+future: <Task finished name='Task-26' coro=<Dispatcher._process_polling_updates() done, defined at D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\Bot\main.py", line 45, in answer_for_state_S2
+    await message.answer("Желаете ли сохранить фото", reply_markup=keyboard.photo1, parse_mode='Markdown')
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\types\message.py", line 413, in answer
+    return await self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2023-01-07 21:20:35,488] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 21:20:35,489] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 21:20:38,933] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 21:20:39,118] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 21:20:39,119] Start polling.
+base_events.py [LINE:1765] #ERROR    [2023-01-07 21:21:02,152] Task exception was never retrieved
+future: <Task finished name='Task-33' coro=<Dispatcher._process_polling_updates() done, defined at D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'str' object has no attribute 'download'")>
+Traceback (most recent call last):
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\Bot\main.py", line 58, in answer_for_state_S3
+    await answer1.download(destination=f'D:\Пайтон\pythonProject practic\Photo\{answer2}.jpg')
+          ^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'download'
+dispatcher.py [LINE:433] #INFO     [2023-01-07 21:21:36,103] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 21:21:36,104] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 21:56:51,735] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 21:56:51,907] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 21:56:51,907] Start polling.
+base_events.py [LINE:1765] #ERROR    [2023-01-07 21:57:11,655] Task exception was never retrieved
+future: <Task finished name='Task-30' coro=<Dispatcher._process_polling_updates() done, defined at D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'str' object has no attribute 'file_path'")>
+Traceback (most recent call last):
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\Bot\main.py", line 58, in answer_for_state_S3
+    await answer1.file_path.download(destination=f'D:\Пайтон\pythonProject practic\Photo\{answer2}.jpg')
+          ^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'file_path'
+dispatcher.py [LINE:433] #INFO     [2023-01-07 21:57:51,539] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 21:57:51,540] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 22:23:52,176] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 22:23:52,351] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 22:23:52,351] Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-01-07 22:33:37,996] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 22:33:37,997] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 22:33:43,184] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 22:33:43,343] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 22:33:43,345] Start polling.
+base_events.py [LINE:1765] #ERROR    [2023-01-07 22:34:03,823] Task exception was never retrieved
+future: <Task finished name='Task-27' coro=<Dispatcher._process_polling_updates() done, defined at D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\Bot\main.py", line 46, in answer_for_state_S2
+    await message.answer("Желаете ли сохранить фото", reply_markup=keyboard.photo1, parse_mode='Markdown')
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\types\message.py", line 413, in answer
+    return await self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2023-01-07 22:38:40,106] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 22:38:40,107] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 22:38:44,381] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 22:38:44,542] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 22:38:44,542] Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-01-07 22:38:53,229] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 22:38:53,230] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 22:41:11,821] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 22:41:12,019] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 22:41:12,020] Start polling.
+base_events.py [LINE:1765] #ERROR    [2023-01-07 22:41:37,140] Task exception was never retrieved
+future: <Task finished name='Task-30' coro=<Dispatcher._process_polling_updates() done, defined at D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\Bot\main.py", line 46, in answer_for_state_S2
+    await message.answer("Желаете ли сохранить фото", reply_markup=keyboard.photo1, parse_mode='Markdown')
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\types\message.py", line 413, in answer
+    return await self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2023-01-07 22:43:01,624] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 22:43:01,625] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 22:43:07,221] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 22:43:07,409] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 22:43:07,409] Start polling.
+base_events.py [LINE:1765] #ERROR    [2023-01-07 22:43:39,484] Task exception was never retrieved
+future: <Task finished name='Task-31' coro=<Dispatcher._process_polling_updates() done, defined at D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'str' object has no attribute 'download_photo'")>
+Traceback (most recent call last):
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\Bot\main.py", line 59, in answer_for_state_S3
+    await answer1.download_photo(destination=f'D:\Пайтон\pythonProject practic\Photo\{answer2}.jpg')
+          ^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'str' object has no attribute 'download_photo'
+dispatcher.py [LINE:433] #INFO     [2023-01-07 23:04:15,734] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 23:04:15,734] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 23:04:21,725] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 23:04:21,885] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 23:04:21,886] Start polling.
+base_events.py [LINE:1765] #ERROR    [2023-01-07 23:04:54,711] Task exception was never retrieved
+future: <Task finished name='Task-44' coro=<Dispatcher._process_polling_updates() done, defined at D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=AttributeError("'int' object has no attribute 'download_photo'")>
+Traceback (most recent call last):
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\Bot\main.py", line 59, in answer_for_state_S3
+    await message.chat.id.download_photo(answer1, destination=f'D:\Пайтон\pythonProject practic\Photo\{answer2}.jpg')
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+AttributeError: 'int' object has no attribute 'download_photo'
+dispatcher.py [LINE:433] #INFO     [2023-01-07 23:05:27,244] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 23:05:27,245] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 23:17:32,328] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 23:17:32,488] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 23:17:32,489] Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-01-07 23:25:06,440] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 23:25:06,441] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 23:25:14,172] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 23:25:14,332] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 23:25:14,332] Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-01-07 23:28:09,006] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 23:28:09,006] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 23:30:06,710] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 23:30:06,880] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 23:30:06,880] Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-01-07 23:32:38,865] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 23:32:38,866] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 23:33:49,937] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 23:33:50,201] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 23:33:50,202] Start polling.
+base_events.py [LINE:1765] #ERROR    [2023-01-07 23:34:18,318] Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<Dispatcher._process_polling_updates() done, defined at D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\Bot\main.py", line 50, in answer_for_state_S2
+    await message.answer("Желаете ли сохранить фото", reply_markup=keyboard.photo)
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\types\message.py", line 413, in answer
+    return await self.bot.send_message(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2023-01-07 23:34:31,843] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 23:34:31,844] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 23:37:57,837] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 23:37:58,003] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 23:37:58,004] Start polling.
+base_events.py [LINE:1765] #ERROR    [2023-01-07 23:38:16,465] Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<Dispatcher._process_polling_updates() done, defined at D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\Bot\main.py", line 50, in answer_for_state_S2
+    await bot.send_message(message.chat.id, "Желаете ли сохранить фото", reply_markup=keyboard.photo, parse_mode='Markdown')
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2023-01-07 23:38:36,912] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 23:38:36,913] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 23:42:47,587] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 23:42:47,771] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 23:42:47,771] Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-01-07 23:48:14,190] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 23:48:14,191] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 23:54:25,215] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 23:54:25,367] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 23:54:25,367] Start polling.
+base_events.py [LINE:1765] #ERROR    [2023-01-07 23:54:47,386] Task exception was never retrieved
+future: <Task finished name='Task-29' coro=<Dispatcher._process_polling_updates() done, defined at D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py:407> exception=BadRequest("Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard")>
+Traceback (most recent call last):
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 415, in _process_polling_updates
+    for responses in itertools.chain.from_iterable(await self.process_updates(updates, fast)):
+                                                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 235, in process_updates
+    return await asyncio.gather(*tasks)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\dispatcher.py", line 256, in process_update
+    return await self.message_handlers.notify(update.message)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\dispatcher\handler.py", line 117, in notify
+    response = await handler_obj.handler(*args, **partial_data)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\Bot\main.py", line 50, in answer_for_state_S2
+    await bot.send_message(message.chat.id, "Желаете ли сохранить фото", reply_markup=keyboard.photo, parse_mode='Markdown')
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\bot.py", line 346, in send_message
+    result = await self.request(api.Methods.SEND_MESSAGE, payload)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\base.py", line 236, in request
+    return await api.make_request(await self.get_session(), self.server, self.__token, method, data, files,
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 140, in make_request
+    return check_result(method, response.content_type, response.status, await response.text())
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\bot\api.py", line 115, in check_result
+    exceptions.BadRequest.detect(description)
+  File "D:\Пайтон\pythonProject practic\venv\Lib\site-packages\aiogram\utils\exceptions.py", line 141, in detect
+    raise cls(description)
+aiogram.utils.exceptions.BadRequest: Can't parse inline keyboard button: text buttons are unallowed in the inline keyboard
+dispatcher.py [LINE:433] #INFO     [2023-01-07 23:55:04,490] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 23:55:04,491] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 23:55:56,250] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 23:55:56,414] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 23:55:56,414] Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-01-07 23:57:09,131] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 23:57:09,131] Goodbye!
+executor.py [LINE:362] #INFO     [2023-01-07 23:57:13,964] Bot: @Alex3005 [@alex3005bot]
+executor.py [LINE:358] #WARNING  [2023-01-07 23:57:14,158] Updates were skipped successfully.
+dispatcher.py [LINE:358] #INFO     [2023-01-07 23:57:14,158] Start polling.
+dispatcher.py [LINE:433] #INFO     [2023-01-07 23:58:09,473] Stop polling...
+executor.py [LINE:329] #WARNING  [2023-01-07 23:58:09,474] Goodbye!
